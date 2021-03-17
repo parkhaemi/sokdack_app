@@ -22,7 +22,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="239dp"
+        android:layout_width="240dp"
         android:layout_height="303dp"
         android:layout_marginTop="108dp"
         android:src="@drawable/main_img"
