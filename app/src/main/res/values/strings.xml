@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sokdack_mbti</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="main_title">Let us find out your book type!</string>
+    <string name="question">당신은 생일에 예쁜꽃병을 선물받았다.\n 당신이 꽃병에 장식하고 싶은 꽃은?</string>
+    <string name="option_1">1. 새빨간 정렬적인 장미</string>
+    <string name="option_2">2. 노란색의 상큼한 튤립</string>
+    <string name="option_3">3. 하얗고 아른아른한 안개꽃</string>
+    <string name="option_4">4. 활짝 핀 해바라기</string>
+    <string name="recommend">당신에게 추천해주고 싶은 책은...</string>
+    <string name="ans_option_1">모든 일에 열정이 넘치는 당신,\n 이 책을 읽으며 조금 쉬어가는건 어떨까요?</string>
+    <string name="ans_option_2">혼자만의 사색을 즐기는 당신,\n 이 책으로 사색의 시간을 가져보는 것 어떨까요?</string>
+    <string name="ans_option_3">누구에게나 친절한 천사같은 당신,\n 가끔은 자기 자신만을 위한 시간을 가져보는 것 어떨까요</string>
+    <string name="ans_option_4">다른 사람들과 어올리기 좋아하는 활동적인 당신,\n 가끔은 당신만의 시간을 가져보는 것 어떨까요?</string>
+
+</resources>
