@@ -12,12 +12,71 @@
     <string name="ans_option_2">혼자만의 사색을 즐기는 당신,\n 이 책으로 사색의 시간을 가져보는 것 어떨까요?</string>
     <string name="ans_option_3">누구에게나 친절한 천사같은 당신,\n 가끔은 자기 자신만을 위한 시간을 가져보는 것 어떨까요</string>
     <string name="ans_option_4">다른 사람들과 어올리기 좋아하는 활동적인 당신,\n 가끔은 당신만의 시간을 가져보는 것 어떨까요?</string>
+
     <string name="question1">당신이 책을 읽는 목적은 무엇인가요?</string>
-    <string name="question1_1">재미를 위해 책을 읽으시군요!\n 책에 글과 그림 중 어떤 내용이 \n 많았으면 좋을 것 같나요?</string>
-    <string name="question1_1_2">그림을 좋아하시는 당신, 만화와 잡지 중 선호하시는 책은 어떤건가요?</string>
-    <string name="question2_1">공부를 위해 책을 읽으시군요!\n 자기개발과 지식획득 중, \n 어떤 목적으로 책을 읽으시나요?</string>
-    <string name="question2_1_1">자기개발을 위해 저희 어플을 찾으시다니, \n 당신은 이미 성공한 사람입니다 :) \n 다음 중 어느 분야에서의 자기개발을 원하시나요?</string>
-    <string name="question2_1_2">지식습을 위해 저희 어플을 찾으시다니, \n 당신은 이미 성공한 지식인입니다 :) \n 다음 중 어느 분야에서의 지식획득을 원하시나요?</string>
-    <string name="question3_1">참고서를 찾아보고 계시는군요!\n 다음 중 본인의 연령을 선택해 주세요.</string>
+    <string name="question1_select1">지루한 일상속에서 재미를 얻기 위해</string>
+    <string name="question1_select2">내 미래 자산이 되는 공부를 하기 위해</string>
+    <string name="question1_select3">학업에 도움이 되는 문제집을 풀기 위해</string>
+
+
+    <string name="question1_1">재미를 위해 책을 읽으시군요!
+        책에 글과 그림 중 어떤 내용이
+        많으면 좋을 것 같나요?</string>
+    <string name="question1_1_select1">글로만 이루어진 책</string>
+    <string name="question1_1_select2">그림이 많이 있는 책</string>
+
+    <string name="question1_1_2">그림이 많은 책을 찾고계신 당신,
+        만화와 잡지 중 선호하시는 책은 어떤건가요?</string>
+    <string name="question1_1_2_select1">다양한 장르의 재미있는 만화</string>
+    <string name="question1_1_2_select2">편하게 읽기 좋은 잡지</string>
+
+
+
+
+
+    <string name="question2_1">공부를 위해 책을 읽으시군요! :)
+        자기개발과 지식획득 중  ,
+          어떤 목적으로 책을 읽으시나요?</string>
+    <string name="question2_1_select1">미래의 나를 위한 투자인 자기개발</string>
+    <string name="question2_2_select2">책은 마음의 양식, 내가 원하는 지식획득</string>
+
+
+    <string name="question2_1_1">자기개발을 위해 저희 어플을 찾으시다니,
+        당신은 이미 성공한 사람입니다 :)
+        다음 중 어느 분야에서 자기개발을 원하시나요?</string>
+    <string name="question2_1_1_select1">제2의 워렌버핏은 나,
+        경제 분야에 대한 자기개발</string>
+    <string name="question2_1_1_select2">나를 발전시키기 위한 자기개발</string>
+    <string name="question2_1_1_select3">실생활에 도움이 되는 자기개발</string>
+
+    <string name="question2_1_1_3">실생횔에서 어느 분야에 대한 지식을 얻고 싶으신가요?</string>
+    <string name="question2_1_1_3_select1">화목하고 단란한 가정</string>
+    <string name="question2_1_1_3_select2">건강한 몸이 마음도 건강하게 만듭니다!</string>
+    <string name="question2_1_1_3_select3">쉬는 시간에 간단히 즐길 수 있는 취미생활</string>
+    <string name="question2_1_1_3_select4">답답한 일상 속에서 벗어나 떠나는 여행</string>
+
+
+    <string name="question2_1_2">지식습을 위해 저희 어플을 찾으시다니,
+        당신은 이미 성공한 지식인입니다 :)
+        다음 중 어느 분야에서의 지식획득을 원하시나요?</string>
+    <string name="question2_1_2_select1">인문학적 소양을 기르고 싶습니다</string>
+    <string name="question2_1_2_select2">세상을 바꾸는 기술인 과학 지식을 얻고 싶어요</string>
+    <string name="question2_1_2_select3">영감을 얻을 수 있는 예술적 정보를 얻고 싶어요</string>
+    <string name="question2_1_2_select4">글로벌 시대에 걸맞는 해외도서를 읽고 싶어요</string>
+
+
+
+
+
+    <string name="question3_1">참고서를 찾아보고 계시는군요!
+        다음 중 본인의 연령을 선택해 주세요.</string>
+    <string name="question3_1_select1">유아</string>
+    <string name="question3_1_select2">어린이</string>
+    <string name="question3_1_select3">청소년</string>
+    <string name="question3_1_select4">20대</string>
+    <string name="question3_1_select5">30대</string>
+    <string name="question3_1_select6">40대 이상</string>
+
+
 
 </resources>

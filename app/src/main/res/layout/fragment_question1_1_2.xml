@@ -7,74 +7,48 @@
     android:background="@drawable/background">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="340dp"
+        android:id="@+id/textView_q1_1_2"
+        android:layout_width="380dp"
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="@string/question1_1_2"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="19dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/button_option_1"
+        android:id="@+id/button_option_1_q1_1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="280dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="@string/option_1"
+        android:text="@string/question1_1_2_select1"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/button_option_2"
+        android:id="@+id/button_option_2_q1_1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="@string/option_2"
+        android:text="@string/question1_1_2_select2"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_1" />
-
-    <TextView
-        android:id="@+id/button_option_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/selection"
-        android:gravity="center"
-        android:text="@string/option_3"
-        android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_2" />
-
-    <TextView
-        android:id="@+id/button_option_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/selection"
-        android:gravity="center"
-        android:text="@string/option_4"
-        android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_3" />
+        app:layout_constraintTop_toBottomOf="@+id/button_option_1_q1_1_2" />
 
     <ImageView
-        android:id="@+id/button_back"
+        android:id="@+id/button_back_q1_1_2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="24dp"

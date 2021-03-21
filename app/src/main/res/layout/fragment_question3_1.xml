@@ -7,7 +7,7 @@
     android:background="@drawable/background">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_q3_1"
         android:layout_width="340dp"
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
@@ -22,59 +22,83 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/button_option_1"
+        android:id="@+id/button_option_1_q3_1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="160dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="@string/option_1"
+        android:text="@string/question3_1_select1"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/button_option_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/selection"
-        android:gravity="center"
-        android:text="@string/option_2"
-        android:textSize="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_1" />
 
     <TextView
-        android:id="@+id/button_option_3"
+        android:id="@+id/button_option_2_q3_1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="@string/option_3"
+        android:text="@string/question3_1_select2"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_2" />
+        app:layout_constraintTop_toBottomOf="@+id/button_option_1_q3_1" />
 
     <TextView
-        android:id="@+id/button_option_4"
+        android:id="@+id/button_option_3_q3_1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/selection"
         android:gravity="center"
-        android:text="@string/option_4"
+        android:text="@string/question3_1_select3"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_3" />
+        app:layout_constraintTop_toBottomOf="@+id/button_option_2_q3_1" />
+
+    <TextView
+        android:id="@+id/button_option_4_q3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/selection"
+        android:gravity="center"
+        android:text="@string/question3_1_select4"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_option_3_q3_1" />
+
+    <TextView
+        android:id="@+id/button_option_5_q3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/selection"
+        android:gravity="center"
+        android:text="@string/question3_1_select5"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_option_4_q3_1" />
+
+    <TextView
+        android:id="@+id/button_option_6_q3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/selection"
+        android:gravity="center"
+        android:text="@string/question3_1_select6"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_option_5_q3_1" />
 
     <ImageView
-        android:id="@+id/button_back"
+        android:id="@+id/button_back_q3_1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="24dp"
