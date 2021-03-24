@@ -41,7 +41,6 @@ class QuestionFragment : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when(v?.id){
             R.id.button_next -> {
-                navController.navigate(R.id.action_questionFragment_to_selectionFragment)
             }
         }
     }

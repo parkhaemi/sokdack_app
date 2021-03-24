@@ -40,7 +40,6 @@ class ResultFragment2 : Fragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.button_home -> {
-                navController.navigate(R.id.action_resultFragment2_to_mainFragment)
             }
         }
     }

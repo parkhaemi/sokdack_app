@@ -3,96 +3,111 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainFragment">
-
+    app:startDestination="@id/questionFragment1">
+    <fragment
+        android:id="@+id/questionFragment1"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment1"
+        android:label="QuestionFragment1" >
+        <action
+            android:id="@+id/action_questionFragment1_to_questionFragment1_1"
+            app:destination="@id/questionFragment1_1" />
+        <action
+            android:id="@+id/action_questionFragment1_to_questionFragment2_1"
+            app:destination="@id/questionFragment2_1" />
+        <action
+            android:id="@+id/action_questionFragment1_to_questionFragment3_1"
+            app:destination="@id/questionFragment3_1" />
+        <action
+            android:id="@+id/action_questionFragment1_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment1_1"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment1_1"
+        android:label="QuestionFragment1_1" >
+        <action
+            android:id="@+id/action_questionFragment1_1_to_questionFragment1_1_2"
+            app:destination="@id/questionFragment1_1_2" />
+        <action
+            android:id="@+id/action_questionFragment1_1_to_questionFragment1"
+            app:destination="@id/questionFragment1" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment2_1"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment2_1"
+        android:label="QuestionFragment2_1" >
+        <action
+            android:id="@+id/action_questionFragment2_1_to_questionFragment2_1_1"
+            app:destination="@id/questionFragment2_1_1" />
+        <action
+            android:id="@+id/action_questionFragment2_1_to_questionFragment2_1_2"
+            app:destination="@id/questionFragment2_1_2" />
+        <action
+            android:id="@+id/action_questionFragment2_1_to_questionFragment1"
+            app:destination="@id/questionFragment1" />
+    </fragment>
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.example.sokdack_mbti.fragment.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main">
+        tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_questionFragment"
-            app:destination="@id/questionFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            android:id="@+id/action_mainFragment_to_questionFragment1"
+            app:destination="@id/questionFragment1" />
     </fragment>
-
     <fragment
-        android:id="@+id/selectionFragment"
-        android:name="com.example.sokdack_mbti.fragment.SelectionFragment"
-        android:label="fragment_selection"
-        tools:layout="@layout/fragment_selection">
+        android:id="@+id/questionFragment3_1"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment3_1"
+        android:label="QuestionFragment3_1" >
         <action
-            android:id="@+id/action_selectionFragment_to_resultFragment"
-            app:destination="@id/resultFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+            android:id="@+id/action_questionFragment3_1_to_questionFragment2"
+            app:destination="@id/questionFragment2" />
         <action
-            android:id="@+id/action_selectionFragment_to_resultFragment4"
-            app:destination="@id/resultFragment4" />
-        <action
-            android:id="@+id/action_selectionFragment_to_resultFragment2"
-            app:destination="@id/resultFragment2" />
-        <action
-            android:id="@+id/action_selectionFragment_to_resultFragment3"
-            app:destination="@id/resultFragment3" />
+            android:id="@+id/action_questionFragment3_1_to_questionFragment1"
+            app:destination="@id/questionFragment1" />
     </fragment>
-
     <fragment
-        android:id="@+id/resultFragment"
-        android:name="com.example.sokdack_mbti.fragment.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
+        android:id="@+id/questionFragment1_1_2"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment1_1_2"
+        android:label="QuestionFragment1_1_2" >
         <action
-            android:id="@+id/action_resultFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_questionFragment1_1_2_to_questionFragment1_1"
+            app:destination="@id/questionFragment1_1" />
     </fragment>
-
     <fragment
-        android:id="@+id/questionFragment"
+        android:id="@+id/questionFragment2_1_1"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment2_1_1"
+        android:label="QuestionFragment2_1_1" >
+        <action
+            android:id="@+id/action_questionFragment2_1_1_to_questionFragment2_1"
+            app:destination="@id/questionFragment2_1" />
+        <action
+            android:id="@+id/action_questionFragment2_1_1_to_questionFragment2_1_1_3"
+            app:destination="@id/questionFragment2_1_1_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment2_1_2"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment2_1_2"
+        android:label="QuestionFragment2_1_2" >
+        <action
+            android:id="@+id/action_questionFragment2_1_2_to_questionFragment2_1"
+            app:destination="@id/questionFragment2_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment2_1_1_3"
+        android:name="com.example.sokdack_mbti.fragment.QuestionFragment2_1_1_3"
+        android:label="QuestionFragment2_1_1_3" >
+        <action
+            android:id="@+id/action_questionFragment2_1_1_3_to_questionFragment2_1_1"
+            app:destination="@id/questionFragment2_1_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment2"
         android:name="com.example.sokdack_mbti.fragment.QuestionFragment"
-        android:label="fragment_question"
-        tools:layout="@layout/fragment_question">
+        android:label="fragment_question3_1"
+        tools:layout="@layout/fragment_question3_1" >
         <action
-            android:id="@+id/action_questionFragment_to_selectionFragment"
-            app:destination="@id/selectionFragment"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/resultFragment2"
-        android:name="com.example.sokdack_mbti.fragment.ResultFragment2"
-        android:label="ResultFragment2"
-        tools:layout="@layout/fragment_result2">
-        <action
-            android:id="@+id/action_resultFragment2_to_mainFragment"
-            app:destination="@id/mainFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/resultFragment3"
-        android:name="com.example.sokdack_mbti.fragment.ResultFragment3"
-        android:label="ResultFragment3"
-        tools:layout="@layout/fragment_result3">
-        <action
-            android:id="@+id/action_resultFragment3_to_mainFragment"
-            app:destination="@id/mainFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/resultFragment4"
-        android:name="com.example.sokdack_mbti.fragment.ResultFragment4"
-        android:label="ResultFragment4"
-        tools:layout="@layout/fragment_result4">
-        <action
-            android:id="@+id/action_resultFragment4_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_questionFragment2_to_questionFragment3_1"
+            app:destination="@id/questionFragment3_1" />
     </fragment>
 </navigation>

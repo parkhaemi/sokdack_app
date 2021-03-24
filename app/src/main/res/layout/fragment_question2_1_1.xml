@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/button_option_1"
+        android:id="@+id/button_option_1_q2_1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/button_option_2"
+        android:id="@+id/button_option_2_q2_1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -45,10 +45,10 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_1" />
+        app:layout_constraintTop_toBottomOf="@+id/button_option_3_q2_1_1" />
 
     <TextView
-        android:id="@+id/button_option_3"
+        android:id="@+id/button_option_3_q2_1_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -58,7 +58,7 @@
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_option_2" />
+        app:layout_constraintTop_toBottomOf="@+id/button_option_1_q2_1_1" />
 
     <ImageView
         android:id="@+id/button_back_q2_1_1"

@@ -26,7 +26,7 @@ class QuestionFragment2_1_2 : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_question, container, false)
+        return inflater.inflate(R.layout.fragment_question2_1_2, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -40,8 +40,8 @@ class QuestionFragment2_1_2 : Fragment(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v?.id){
-            R.id.button_next -> {
-                navController.navigate(R.id.action_questionFragment_to_selectionFragment)
+            R.id.button_back_q2_1_2 -> {
+                navController.navigate(R.id.action_questionFragment2_1_2_to_questionFragment2_1)
             }
         }
     }

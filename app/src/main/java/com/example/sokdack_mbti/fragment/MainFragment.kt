@@ -36,7 +36,7 @@ class MainFragment : Fragment() {
 
 
         button_next.setOnClickListener {
-            navController.navigate(R.id.action_mainFragment_to_questionFragment)
+            navController.navigate(R.id.action_mainFragment_to_questionFragment1)
         }
     }
 
