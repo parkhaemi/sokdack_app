@@ -9,7 +9,9 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
 import com.example.sokdack_mbti.R
-import kotlinx.android.synthetic.main.fragment_question.*
+import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_question2_1_1.*
+import kotlinx.android.synthetic.main.fragment_question2_1_1_3.*
 
 
 /**
@@ -17,7 +19,7 @@ import kotlinx.android.synthetic.main.fragment_question.*
  * Use the [QuestionFragment2_1_1_3.newInstance] factory method to
  * create an instance of this fragment.
  */
-class QuestionFragment2_1_1_3 : Fragment(), View.OnClickListener {
+class QuestionFragment2_1_1_3 : Fragment() {
 
     lateinit var navController : NavController
 
@@ -34,15 +36,22 @@ class QuestionFragment2_1_1_3 : Fragment(), View.OnClickListener {
 
         navController = Navigation.findNavController(view)
 
-        button_next.setOnClickListener(this)
 
-    }
+        button_back_q2_1_1_3.setOnClickListener{
+            navController.popBackStack()
+        }
 
-    override fun onClick(v: View?) {
-        when(v?.id){
-            R.id.button_back_q2_1_1_3 -> {
-                navController.navigate(R.id.action_questionFragment2_1_1_3_to_questionFragment2_1_1)
-            }
+        button_option_1_q2_1_1_3.setOnClickListener {
+
+        }
+        button_option_2_q2_1_1_3.setOnClickListener {
+            navController.navigate(R.id.action_questionFragment2_1_1_3_to_resultFragment10)
+        }
+        button_option_3_q2_1_1_3.setOnClickListener {
+
+        }
+        button_option_4_q2_1_1_3.setOnClickListener {
+
         }
     }
 

@@ -5,19 +5,21 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.sokdack_mbti.R
-import kotlinx.android.synthetic.main.fragment_selection.*
+import kotlinx.android.synthetic.main.fragment_question2_1_2.*
+import kotlinx.android.synthetic.main.fragment_result.*
+import kotlinx.android.synthetic.main.fragment_result.button_home
+import kotlinx.android.synthetic.main.fragment_result10.*
 
 
 /**
  * A simple [Fragment] subclass.
- * Use the [SelectionFragment.newInstance] factory method to
+ * Use the [ResultFragment10.newInstance] factory method to
  * create an instance of this fragment.
  */
-class SelectionFragment : Fragment() {
+class ResultFragment10 : Fragment() {
 
     lateinit var navController: NavController
 
@@ -26,7 +28,8 @@ class SelectionFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_selection, container, false)
+
+        return inflater.inflate(R.layout.fragment_result10, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -34,24 +37,10 @@ class SelectionFragment : Fragment() {
 
         navController = Navigation.findNavController(view)
 
-        button_back.setOnClickListener{
-            navController.popBackStack()
-        }
 
-        button_option_1.setOnClickListener {
-
-        }
-        button_option_2.setOnClickListener {
-
-        }
-        button_option_3.setOnClickListener {
-
-        }
-        button_option_4.setOnClickListener {
-       
+        button_home.setOnClickListener{
+            navController.navigate(R.id.action_resultFragment10_to_mainFragment)
         }
     }
 
 }
-
-// selection fragment

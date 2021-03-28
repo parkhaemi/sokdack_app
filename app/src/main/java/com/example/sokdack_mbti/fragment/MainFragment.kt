@@ -10,6 +10,7 @@ import androidx.navigation.Navigation
 
 import com.example.sokdack_mbti.R
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_question1.*
 
 
 /**
@@ -33,7 +34,6 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         navController = Navigation.findNavController(view)
-
 
         button_next.setOnClickListener {
             navController.navigate(R.id.action_mainFragment_to_questionFragment1)

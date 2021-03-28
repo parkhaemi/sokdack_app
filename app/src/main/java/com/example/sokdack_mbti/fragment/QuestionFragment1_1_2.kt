@@ -9,7 +9,9 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
 import com.example.sokdack_mbti.R
-import kotlinx.android.synthetic.main.fragment_question.*
+import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_question1_1.*
+import kotlinx.android.synthetic.main.fragment_question1_1_2.*
 
 
 /**
@@ -17,7 +19,7 @@ import kotlinx.android.synthetic.main.fragment_question.*
  * Use the [QuestionFragment1_1_2.newInstance] factory method to
  * create an instance of this fragment.
  */
-class QuestionFragment1_1_2 : Fragment(), View.OnClickListener {
+class QuestionFragment1_1_2 : Fragment() {
 
     lateinit var navController : NavController
 
@@ -34,15 +36,17 @@ class QuestionFragment1_1_2 : Fragment(), View.OnClickListener {
 
         navController = Navigation.findNavController(view)
 
-        button_next.setOnClickListener(this)
 
-    }
 
-    override fun onClick(v: View?) {
-        when(v?.id){
-            R.id.button_back_q1_1_2 -> {
-                navController.navigate(R.id.action_questionFragment1_1_2_to_questionFragment1_1)
-            }
+        button_back_q1_1_2.setOnClickListener {
+            navController.popBackStack()
+        }
+
+        button_option_1_q1_1_2.setOnClickListener {
+
+
+        }
+        button_option_2_q1_1_2.setOnClickListener {
         }
     }
 

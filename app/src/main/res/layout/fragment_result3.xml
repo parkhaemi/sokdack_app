@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="484dp"
         android:gravity="center"
-        android:text="@string/ans_option_3"
+        android:text="잡지"
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"

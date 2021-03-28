@@ -9,7 +9,9 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 
 import com.example.sokdack_mbti.R
+import kotlinx.android.synthetic.main.fragment_main.*
 import kotlinx.android.synthetic.main.fragment_question.*
+import kotlinx.android.synthetic.main.fragment_question.button_next
 import kotlinx.android.synthetic.main.fragment_question1.*
 import kotlinx.android.synthetic.main.fragment_question1_1.*
 
@@ -37,15 +39,16 @@ class QuestionFragment1_1 : Fragment() {
 
         navController = Navigation.findNavController(view)
 
+
         button_back_q1_1.setOnClickListener{
             navController.popBackStack()
         }
 
         button_option_1_q1_1.setOnClickListener {
-            navController.navigate(R.id.action_questionFragment1_to_questionFragment1_1)
+
         }
-        button_option_2_q1.setOnClickListener {
-            navController.navigate(R.id.action_questionFragment1_to_questionFragment2_1)
+        button_option_2_q1_1.setOnClickListener {
+            navController.navigate(R.id.action_questionFragment1_1_to_questionFragment1_1_2)
         }
     }
 
