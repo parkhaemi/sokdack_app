@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "861048416768",
+    "project_id": "sockdack-app",
+    "storage_bucket": "sockdack-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861048416768:android:73b4527c339081a921c6e5",
+        "android_client_info": {
+          "package_name": "com.example.sockdack_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861048416768-o1ut34tv8k4m4njpbm6bt9o8qse9720k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sockdack_app",
+            "certificate_hash": "6dc20c7ad96f824d80adab7a96463bffaf0bd04a"
+          }
+        },
+        {
+          "client_id": "861048416768-bgeoga1f9qn2dmorcc8t97srd9iaf3br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChK2p7A4rEoCKdZTVBP5Lk9DY9uP8jRHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861048416768-bgeoga1f9qn2dmorcc8t97srd9iaf3br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

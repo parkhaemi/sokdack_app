@@ -1,83 +1,19 @@
 <resources>
-    <string name="app_name">sokdack_mbti</string>
+    <string name="app_name">속닥속닥</string>
+
+    <!-- Ted Permission -->
+    <string name="permission_1">[설정] > [권한] 에서 권한을 허용할 수 있습니다.</string>
+    <string name="permission_2">사진 및 파일을 저장하기 위하여 접근 권한이 필요합니다.</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="main_title">당신을 위한 책을 추천해드릴게요!</string>
-    <string name="question">당신은 생일에 예쁜꽃병을 선물받았다.\n 당신이 꽃병에 장식하고 싶은 꽃은?</string>
-    <string name="option_1">1. 새빨간 정렬적인 장미</string>
-    <string name="option_2">2. 노란색의 상큼한 튤립</string>
-    <string name="option_3">3. 하얗고 아른아른한 안개꽃</string>
-    <string name="option_4">4. 활짝 핀 해바라기</string>
-    <string name="recommend">당신에게 추천해주고 싶은 책은...</string>
-    <string name="ans_option_1">모든 일에 열정이 넘치는 당신,<br></br>\n
-        이 책을 읽으며 자신을 위한 운동을 시작해 보세요!</string>
-    <string name="ans_option_2">혼자만의 사색을 즐기는 당신,\n 이 책으로 사색의 시간을 가져보는 것 어떨까요?</string>
-    <string name="ans_option_3">누구에게나 친절한 천사같은 당신,\n 가끔은 자기 자신만을 위한 시간을 가져보는 것 어떨까요</string>
-    <string name="ans_option_4">다른 사람들과 어올리기 좋아하는 활동적인 당신,\n 가끔은 당신만의 시간을 가져보는 것 어떨까요?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_page__r">MyPage_R</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
-    <string name="question1">당신이 책을 읽는 목적은 무엇인가요?</string>
-    <string name="question1_select1">지루한 일상속에서 재미를 얻기 위해</string>
-    <string name="question1_select2">내 미래 자산이 되는 공부를 하기 위해</string>
-    <string name="question1_select3">학업에 도움이 되는 문제집을 풀기 위해</string>
-
-
-    <string name="question1_1">재미를 위해 책을 읽으시군요!<br></br>
-        책에 글과 그림 중 어떤 내용이<br></br>
-        많으면 좋을 것 같나요?</string>
-    <string name="question1_1_select1">글로만 이루어진 책</string>
-    <string name="question1_1_select2">그림이 많이 있는 책</string>
-
-    <string name="question1_1_2">그림이 많은 책을 찾고계신 당신,<br></br>
-        만화와 잡지 중 선호하시는 책은 어떤건가요?</string>
-    <string name="question1_1_2_select1">다양한 장르의 재미있는 만화</string>
-    <string name="question1_1_2_select2">편하게 읽기 좋은 잡지</string>
-
-
-
-
-
-    <string name="question2_1">공부를 위해 책을 읽으시군요! :)<br></br>
-        자기개발과 지식획득 중  ,<br></br>
-          어떤 목적으로 책을 읽으시나요?</string>
-    <string name="question2_1_select1">미래의 나를 위한 투자인 자기개발</string>
-    <string name="question2_2_select2">책은 마음의 양식, 내가 원하는 지식획득</string>
-
-
-    <string name="question2_1_1">자기개발을 위해 저희 어플을 찾으시다니,<br></br>
-        당신은 이미 성공한 사람입니다 :)<br></br>
-        다음 중 어느 분야에서 자기개발을 원하시나요?</string>
-    <string name="question2_1_1_select1">제2의 워렌버핏은 나,<br></br>
-        경제 분야에 대한 자기개발</string>
-    <string name="question2_1_1_select2">나를 발전시키기 위한 자기개발</string>
-    <string name="question2_1_1_select3">실생활에 도움이 되는 자기개발</string>
-
-    <string name="question2_1_1_3">실생횔에서 어느 분야에 대한 지식을 얻고 싶으신가요?</string>
-    <string name="question2_1_1_3_select1">화목하고 단란한 가정 만들기</string>
-    <string name="question2_1_1_3_select2">건강이 최고! 건강한 몸 만들기</string>
-    <string name="question2_1_1_3_select3">쉬는 시간에 간단히 즐길 수 있는 취미생활</string>
-    <string name="question2_1_1_3_select4">답답한 일상 속에서 벗어나 떠나는 여행</string>
-
-
-    <string name="question2_1_2">지식습을 위해 저희 어플을 찾으시다니,<br></br>
-        당신은 이미 성공한 지식인입니다 :)<br></br>
-        다음 중 어느 분야에서의 지식획득을 원하시나요?</string>
-    <string name="question2_1_2_select1">인문학적 소양을 기르고 싶습니다</string>
-    <string name="question2_1_2_select2">세상을 바꾸는 기술인 과학 지식을 얻고 싶어요</string>
-    <string name="question2_1_2_select3">영감을 얻을 수 있는 예술적 정보를 얻고 싶어요</string>
-    <string name="question2_1_2_select4">글로벌 시대에 걸맞는 해외도서를 읽고 싶어요</string>
-
-
-
-
-
-    <string name="question3_1">참고서를 찾아보고 계시는군요!<br></br>
-        다음 중 본인의 연령을 선택해 주세요.</string>
-    <string name="question3_1_select1">유아</string>
-    <string name="question3_1_select2">어린이</string>
-    <string name="question3_1_select3">청소년</string>
-    <string name="question3_1_select4">20대</string>
-    <string name="question3_1_select5">30대</string>
-    <string name="question3_1_select6">40대 이상</string>
-
-
-
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_b_search">bSearchActivity</string>
 </resources>

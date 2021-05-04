@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInfoChange">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_signUpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="회원 정보"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/editText_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="나이"
+        android:textColor="@android:color/black" />
+    ​
+    <EditText
+        android:id="@+id/editText_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="W/M"
+        android:textColor="@android:color/black" />
+    ​
+    <EditText
+        android:id="@+id/editText_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="직업"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#772828"
+        android:text="Edit"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
